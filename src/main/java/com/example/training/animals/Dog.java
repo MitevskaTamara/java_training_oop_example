@@ -8,6 +8,7 @@ public class Dog extends Animal implements AnimalBehaviour{
     System.out.println("Animal is running!");
   }
 
+  @Override
   public String breadName() {
     return this.breed;
   }
